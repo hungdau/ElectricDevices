@@ -1,0 +1,140 @@
+﻿@model TechZone.Web.Models.FeedbackViewModel
+@using BotDetect.Web.Mvc;
+@{
+    ViewBag.Title = "Liên hệ";
+    ViewBag.MetaKeyword = "liên hệ";
+    ViewBag.MetaDescription = "Thông tin liên hệ của TECHZONE";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+@section footerJS{
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAk3Eeu6MXm1Y6qil2hO6j89kckY5nnSTo"></script>
+    <script src="~/Assets/client/js/controllers/contact.js"></script>
+}
+<style>
+    #map {
+        height: 300px;
+    }
+
+    #btn {
+        padding: 10px 25px;
+        color: #fff;
+        background: #F97E76;
+        font-size: 1.1em;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        transition: 0.5s all;
+        float: right;
+    }
+</style>
+<link href="@BotDetect.Web.CaptchaUrls.Absolute.LayoutStyleSheetUrl" rel="stylesheet" type="text/css" />
+<div class="container">
+    <div class="sub-cate" style="margin-top: -2%; margin-left: -17px">
+        <div class="">
+            @*top-nav rsidebar span_1_of_left*@
+            <ul class="menu">
+                <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            </ul>
+        </div>
+    </div>
+    <div class="shoes-grid">
+        <section class="hero2 hero-normal2"  style="margin-top: -2px;">
+            <div>
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                            <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                            <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                        </form>
+                    </div>
+                    <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="container">
+    <nav class="header__menu2">
+        <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li style="margin-left:1%"> > </li>
+            <li><a href="/lien-he.html/">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <input type="hidden" id="hidAddress" value="<b>@Model.ContactDetail.Name</b><br />Điện thoại:@Model.ContactDetail.Phone <br>Địa chỉ: @Model.ContactDetail.Address <br><a target='_blank' href='https://maps.google.com/maps?ll=@Model.ContactDetail.Lat,@Model.ContactDetail.Lng&amp;z=18&amp;t=m&amp;hl=vi&amp;gl=US&amp;mapclient=apiv3&amp;cid=14317441038146502191'> <span style='color:blue'>Xem trên Google Maps</span> </a>" />
+        <input type="hidden" id="hidLat" value="@Model.ContactDetail.Lat" />
+        <input type="hidden" id="hidLng" value="@Model.ContactDetail.Lng" />
+        <input type="hidden" id="hidName" value="@Model.ContactDetail.Name" />
+        <div id="map" style="height: 450px"></div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="reservation_top">
+                    <div class="contact_right">
+
+                        <div class="clearfix"></div>
+                        <h3 class="product__details__text" style="padding-top: 30px"><b style="font-weight: 600;">Thông Tin Shop</b></h3>
+                        <address class="address">
+                            <p>@Model.ContactDetail.Address</p>
+                            <dl>
+                                <dt></dt>
+                                <dd>Điện thoại:&nbsp;<span>@Model.ContactDetail.Phone</span></dd>
+                                <br />
+                                <dd>E-mail:&nbsp;<a href="mailto:@(Model.ContactDetail.Email)">@(Model.ContactDetail.Email)</a></dd>
+                            </dl>
+                        </address>
+                        <div class="share">
+                            <h5>Chia sẻ :</h5>
+                            <ul class="share_nav">
+                                <li><a href="#"><img src="/Assets/client/images/gpluse.png" title="Google+"></a></li>
+                                <li><a href="#"><img src="/Assets/client/images/facebook.png" title="facebook"></a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="reservation_top">
+                    <div class="contact_right">
+                        <h3 class="product__details__text" style="padding-top: 30px"><b style="font-weight: 600;">Liên Hệ Với Shop</b></h3>
+                        <div class="contact-form">
+                            @using (Html.BeginForm("SendFeedback", "Contact", FormMethod.Post))
+                            {
+                                if (ViewData["SuccessMsg"] != null)
+                                {
+
+                                    <div class="alert alert-success" role="alert">
+                                        Cảm ơn bạn đã gửi phản hồi!
+                                        <br />Chúng tôi sẽ liên hệ lại sớm nhất có thể.
+                                    </div>
+                                    <button id="btn" style="background-color: #40a2f8; float: left">Gửi lại</button>
+                                }
+                                else
+                                {
+                                    @Html.ValidationSummary(false, "", new { @class = "error" });
+                                    @*<lable>Tên người dùng:</lable>*@@Html.TextBoxFor(model => model.Name, new { placeholder = "Tên người dùng", @class = "textbox" });
+                                    @*<lable>Email:</lable>*@@Html.TextBoxFor(model => model.Email, new { placeholder = "Email", @class = "textbox" });
+                                    @*<lable>Nội dung:</lable>*@@Html.TextAreaFor(model => model.Message, new { placeholder = "Lời nhắn" });
+
+                                    MvcCaptcha contactCaptcha = new MvcCaptcha("contactCaptcha");
+                                    <lable>Mã xác nhận:</lable>
+                                    @Html.Captcha(contactCaptcha)
+                                    @Html.TextBox("CaptchaCode")
+
+                                    <input type="submit" value="Gửi" style="background-color: #40a2f8; float: left">
+                                }
+                                <div class="clearfix"> </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

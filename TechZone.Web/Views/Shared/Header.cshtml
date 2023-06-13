@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNet.Identity;
+<div class="container">
+    <div class="row" >
+        <div class="col-lg-2">
+            <div class="header__logo">
+                <a href="/"><img src="~/Assets/client/images/logo.png" alt="" style="max-width: 150px; margin-top: 12px" ></a>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <nav class="header__menu">
+                <ul>
+                    @using (Html.BeginForm("LogOut", "Account", FormMethod.Post, new { @id = "frmLogout", action = "/Account/LogOut/" }))
+                    {
+                        if (Request.IsAuthenticated)
+                        {
+                            <li style="width: 10%"> <a href="/">Home</a></li>
+                            <li style="width: 10%"><a href="/chat-gpt.html/">Chat GPT</a></li>
+
+                            @*<li>
+                    <a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>*@
+                            <li style="width: 10%"><a href="/lien-he.html/">Liên hệ</a></li>
+                            @Html.AntiForgeryToken()
+                            <li style="width: 12%"><a href="/tai-khoan.html/">Đơn hàng</a></li>
+
+                            <li style="width: 22%;"><a href="/tai-khoan.html/"><span> </span>Xin chào: @User.Identity.GetUserName()</a></li>
+
+                            <li style="width: 6%"><a href="#" id="btnLogout">Thoát</a></li>
+                        }
+                        else
+                        {
+                            <li style="width: 20%"><a href="/">Home</a></li>
+                            <li style="width: 20%"><a href="/lien-he.html/">Liên hệ</a></li>
+                            <li style="width: 20%"><a href="/dang-nhap.html/"><span> </span>ĐĂNG NHẬP</a></li>
+                            <li style="width: 20%"><a href="/dang-ky.html/">ĐĂNG KÝ</a></li>
+                        }
+                    }
+                </ul>
+
+            </nav>
+        </div>
+
+    </div>
+</div>

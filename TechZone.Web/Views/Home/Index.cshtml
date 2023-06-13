@@ -1,0 +1,220 @@
+﻿@model TechZone.Web.Models.HomeViewModel
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.MetaKeyword = Model.MetaKeyword;
+    ViewBag.MetaDescription = Model.MetaDescription;
+    Layout = "~/Views/Shared/Layouts.cshtml";
+    var count = 0;
+
+}
+@section footerJs{
+    <script src="/Assets/client/js/jquery.wmuSlider.js"></script>
+    <script>
+        $('.example1').wmuSlider();
+    </script>
+}
+
+<div class="container">
+    @{Html.RenderAction("Category", "Home");}
+
+    <div class="shoes-grid">
+        <div>
+            <section class="hero2 hero-normal2">
+                <div>
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                                <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                                <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                            </form>
+                        </div>
+                        <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                    </div>
+                </div>
+            </section>
+            <div class="wrap-in">
+                <div class="wmuSlider example1 slide-grid" style="margin-top: 0px">
+                    <div class="wmuSliderWrapper">
+                        @foreach (var slide in Model.Slides)
+                        {
+                            <article style="position: absolute; width: 100%; opacity: 0;">
+                                <div class="banner-matter">
+                                    <div class="col-md-5 banner-bag">
+                                        <img class="img-responsive " src="@slide.Image" alt="@slide.Name" style="height: 420px"/>
+                                    </div>
+                                    <div class="col-md-7 banner-off">
+                                        @Html.Raw(slide.Content)
+                                    </div>
+
+                                    <div class="clearfix"> </div>
+                                </div>
+
+                            </article>
+                        }
+                    </div>
+
+                    <ul class="wmuSliderPagination">
+                        @for (int i = 0; i < Model.Slides.Count(); i++)
+                        {
+                            <li><a href="#" class="">i</a></li>
+                        }
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*San pham ban chay*@
+    <div>
+        <div class="container">
+            <div class="row featured__filter">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Sản Phẩm Bán Chạy</h2>
+                    </div>
+                    <div class="featured__controls" style="text-align: center">
+                        <ul style="padding-left: 0px">
+                            <li class="active" data-filter="*">All</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                @foreach (var product in Model.TopSaleProducts)
+                {
+                    var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                    <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                        <div class="featured__item" style="height: 350px">
+                            <div class="featured__item__pic set-bg">
+                                <a href="@url"><img class="img-responsive chain" src="@product.Image" /></a>
+                                <ul class="featured__item__pic__hover">
+                                    <li><a href="@url">Mua hàng</a></li>
+                                </ul>
+                            </div>
+                            <div class="featured__item__text">
+                                <h5><a href="@url">@product.Name</a></h5>
+                                @if (product.PromotionPrice.HasValue)
+                                {
+                                    <span class="actual">@product.PromotionPrice.Value.ToString("N0")</span>
+                                }
+                                <br />
+                                <span class="reducedfrom">@product.Price.ToString("N0")</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    @*Image*@
+
+    <a href="#"><img class="img-responsive chain" style="max-height: 280px; width:100%;" src="~/Assets/client/images/AnhTrangChu.png" /></a>
+
+    @*3 Rows*@
+    <div class="container">
+        <div class="row">
+            <br />
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Newest Products <span style="float: right; margin-right: 20px; font-size:medium">&darr;</span></h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @foreach (var product in Model.LastestProducts)
+                            {
+                                var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                                <a href="@url" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="@product.Image" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>@product.Name</h6>
+                                        <span>@product.Price.ToString("N0")</span>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Most View Products <span style="float: right; margin-right: 20px; font-size:medium">&darr;</span></h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @foreach (var product in Model.MostViewProduct)
+                            {
+                                var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                                <a href="@url" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="@product.Image" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>@product.Name</h6>
+                                        <span>@product.Price.ToString("N0")</span>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Top Products <span style="float: right; margin-right: 20px; font-size:medium">&darr;</span></h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @foreach (var product in Model.LastestProducts)
+                            {
+                                var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                                <a href="@url" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="@product.Image" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>@product.Name</h6>
+                                        <span>@product.Price.ToString("N0")</span>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "111212451948497");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v16.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>

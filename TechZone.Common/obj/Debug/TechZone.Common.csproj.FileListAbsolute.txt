@@ -1,0 +1,46 @@
+D:\Đồ án\Git\TechZone.Common\bin\Debug\TechZone.Common.dll
+D:\Đồ án\Git\TechZone.Common\bin\Debug\TechZone.Common.pdb
+D:\Đồ án\Git\TechZone.Common\obj\Debug\TechZone.Common.csproj.AssemblyReference.cache
+D:\Đồ án\Git\TechZone.Common\obj\Debug\TechZone.Common.csproj.CoreCompileInputs.cache
+D:\Đồ án\Git\TechZone.Common\obj\Debug\TechZone.Common.dll
+D:\Đồ án\Git\TechZone.Common\obj\Debug\TechZone.Common.pdb
+C:\DoAn\DoAn\Git\TechZone.Common\bin\Debug\TechZone.Common.dll
+C:\DoAn\DoAn\Git\TechZone.Common\bin\Debug\TechZone.Common.pdb
+C:\DoAn\DoAn\Git\TechZone.Common\obj\Debug\TechZone.Common.csproj.AssemblyReference.cache
+C:\DoAn\DoAn\Git\TechZone.Common\obj\Debug\TechZone.Common.csproj.CoreCompileInputs.cache
+C:\DoAn\DoAn\Git\TechZone.Common\obj\Debug\TechZone.Common.dll
+C:\DoAn\DoAn\Git\TechZone.Common\obj\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\TechZone.Common.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\Microsoft.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Web.Http.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\Microsoft.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Web.Http.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\obj\Debug\TechZone.Common.csproj.AssemblyReference.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\obj\Debug\TechZone.Common.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\obj\Debug\TechZone.Common.csproj.CopyComplete
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\obj\Debug\TechZone.Common.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\obj\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EPPlus.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\HtmlRenderer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\HtmlRenderer.PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\EPPlus.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\HtmlRenderer.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\HtmlRenderer.PdfSharp.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\PdfSharp.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Common\bin\Debug\de\PdfSharp.Charting.resources.dll

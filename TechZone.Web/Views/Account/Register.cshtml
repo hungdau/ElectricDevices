@@ -1,0 +1,90 @@
+﻿@model TechZone.Web.Models.RegisterViewModel
+@using BotDetect.Web.Mvc;
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+<div class="container">
+    <div class="sub-cate" style="margin-top: -2%">
+        <div class="">
+            @*top-nav rsidebar span_1_of_left*@
+            <ul class="menu">
+                <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            </ul>
+        </div>
+    </div>
+    <link href="@BotDetect.Web.CaptchaUrls.Absolute.LayoutStyleSheetUrl" rel="stylesheet" type="text/css" />
+    <div class="shoes-grid">
+        <section class="hero2 hero-normal2">
+            <div>
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                            <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                            <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                        </form>
+                    </div>
+                    <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="register" style="padding: 1em 0 2em">
+        <h1 style="text-align:center">Đăng ký</h1>
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { action = "/Account/Register/" }))
+        {
+            @Html.AntiForgeryToken();
+            @Html.ValidationSummary(false, "", new { @class = "error" })
+
+            if (ViewData["SuccessMsg"] != null)
+            {
+
+                <div class="alert alert-success" role="alert">
+                    <strong>Đăng ký thành công !</strong>
+                    <br />Nhấn <a href="/dang-nhap.html/" style="color: red"> vào đây </a>để đăng nhập.
+                </div>
+            }
+            else
+            {
+    <div class="register-top-grid">
+        
+        <div class="mation">
+            <label for="fullname">Họ tên:</label><br>
+            @Html.TextBoxFor(m => m.FullName, new { @id = "fullname", @type = "text", @required = "required" })<br><br>
+            <label for="email">Email:</label><br>
+            @Html.TextBoxFor(m => m.Email, new { @id = "email", @type = "text", @required = "required" })<br><br>
+            <label for="address">Địa chỉ:</label><br>
+            @Html.TextBoxFor(m => m.Address, new { @id = "address", @type = "text" })<br><br>
+            <label for="phone">Số điện thoại:</label><br>
+            @Html.TextBoxFor(m => m.PhoneNumber, new { @id = "phone", @type = "text", @required = "required" })<br><br>
+            <label for="username">Tên đăng nhập:</label><br>
+            @Html.TextBoxFor(m => m.UserName, new { @id = "username", @required = "required" })<br><br>
+            <label for="password">Mật khẩu:</label><br>
+            @Html.PasswordFor(m => m.Password, new { style = "border: none; border-bottom: 1px solid #b9b8b8", @id = "password", @type = "password", @required = "required" })<br><br>
+
+            <label for="confirm-password">Xác nhận mật khẩu:</label>
+            @Html.PasswordFor(m => m.ConfirmPassword, new { style = "border: none; border-bottom: 1px solid #b9b8b8", @id = "confirm-password", @type = "password", @required = "required" })<br><br>
+            @*<input type="password" id="confirm-password" name="confirm-password" required style="border: none; border-bottom: 1px solid #b9b8b8"><br><br>*@
+
+            @{
+                MvcCaptcha registerCaptcha = new MvcCaptcha("registerCaptcha");
+            }
+            <span>Captcha<label>*</label></span>
+            @Html.Captcha(registerCaptcha)
+            @Html.TextBox("CaptchaCode")
+        </div>
+        <div class="register-but">
+            <input type="submit" value="Tạo tài khoản" style="background: #40a2f8; border-radius:10px; width: 180px; margin-left: 35%">
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+                <div class="clearfix"> </div>
+               
+            }
+        }
+    </div>
+
+</div>
+
+

@@ -1,0 +1,174 @@
+﻿@model TechZone.Web.Infrastructure.Core.PaginationSet<TechZone.Web.Models.ProductViewModel>
+
+@{
+    var category = (TechZone.Web.Models.ProductCategoryViewModel)ViewBag.Category;
+    var pageIndex = Model.Page;
+    ViewBag.Title = pageIndex == 1 ? category.Name : category.Name + " - Trang " + pageIndex;
+    ViewBag.MetaKeyword = pageIndex == 1 ? category.MetaKeyword : category.MetaKeyword + " - Trang " + pageIndex;
+    ViewBag.MetaDescription = pageIndex == 1 ? category.MetaDescription : category.MetaDescription + " - Trang " + pageIndex;
+    Layout = "~/Views/Shared/Layouts.cshtml";
+    var url2 = "/" + category.Name + ".pc-" + category.ID + ".html/";
+}
+<div class="container">
+    <div class="sub-cate" style="margin-top: -2%; margin-left: -17px">
+        <div class="">
+            @*top-nav rsidebar span_1_of_left*@
+            <ul class="menu">
+                <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            </ul>
+        </div>
+    </div>
+    <div class="shoes-grid">
+        <section class="hero2 hero-normal2">
+            <div>
+                <div class="hero__search" style="margin-top: -3px">
+                    <div class="hero__search__form">
+                        <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                            <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                            <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                        </form>
+                    </div>
+                    <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<section class="breadcrumb-section set-bg2" style="background-image: url(/Assets//client/images/anhtieude.jpg); width: 100%; margin-bottom:0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h3>@category.Name 
+                        @if (Model.Count != 0)
+                         {
+                            <span>- &nbsp;@Model.TotalCount sản phẩm</span>
+                          }
+                    </h3>
+                    <div class="breadcrumb__option">
+                        <a href="/">Home&nbsp; </a>
+                        <span>@category.Name</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <nav class="header__menu2">
+        <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li style="margin-left:1%"> > </li>
+            <li><a href="@url2">@category.Name</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2" style="margin-left: -17px;">
+                @if (Model.Count > 0)
+                {
+                    <div class="w_content">
+                        <div class="women">
+                            <ul class="w_nav">
+                                <li style="font-weight: 700; font-size: 1.5em; color: #40a2f8">Lọc : </li>
+                                <li><a href="?page=@Model.Page&sort=new">Mới </a></li>
+                                <li><a class="active" href="?page=@Model.Page&sort=popular">Phổ biến</a></li>
+                                <li><a href="?page=@Model.Page&sort=discount">Khuyến mãi</a></li>
+                                <li><a href="?page=@Model.Page&sort=price">Giá: <br /><br />&nbsp;Thấp &rarr; Cao </a></li>
+                                <div class="clearfix"> </div>
+                            </ul>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-lg-10">
+                @if (Model.Count > 0)
+                {
+                    <div class="grid-product">
+
+                        <br /> <br />
+                        @foreach (var product in Model.Items)
+                        {
+                            var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                            <div class="product-grid" style="height: 500px">
+                                <div class="content_box">
+                                    <a href="@url">
+                                        <div class="left-grid-view grid-view-left">
+                                            <img src="@product.Image" class="img-responsive watch-right" alt="@product.Name" />
+                                            <div class="mask">
+                                                <div class="info">Xem nhanh</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <h4 style="height: 30px"><a href="@url">@product.Name</a></h4>
+                                    <p>@product.Description</p>
+                                    @(product.Price == 0 ? "Liên hệ" : product.Price.ToString("N2"))
+                                </div>
+                            </div>
+                        }
+                        <div class="clearfix"> </div>
+                        @if (Model.TotalPages > 1)
+                        {
+                            // Create numeric links
+                            var startPageIndex = Math.Max(1, Model.Page - Model.MaxPage / 2);
+                            var endPageIndex = Math.Min(Model.TotalPages, Model.Page + Model.MaxPage / 2);
+
+                            <nav>
+                                <ul class="pagination">
+                                    @if (Model.Page > 1)
+                                    {
+                                        <li>
+                                            <a href="?page=1" aria-label="First">
+                                                <i class="fa fa-angle-double-left"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=@(Model.Page-1)" aria-label="Previous">
+                                                <i class="fa fa-angle-left"></i>
+                                            </a>
+                                        </li>
+                                    }
+
+                                    @for (int i = startPageIndex; i <= endPageIndex; i++)
+                                    {
+                                        if (Model.Page == i)
+                                        {
+                                            <li class="active"><a href="?page=@i" title="Trang @i">@i</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="?page=@i" title="Trang @i">@i</a></li>
+                                        }
+                                    }
+                                    @if (Model.Page < Model.TotalPages)
+                                    {
+                                        <li>
+                                            <a href="?page=@(Model.Page+1)" aria-label="Next">
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=@Model.TotalPages" aria-label="Last">
+                                                <i class="fa fa-angle-double-right"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </nav>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <h4 style="padding: 0px; text-align: center; margin-left: -18%">Không có sản phẩm nào</h4>
+                }
+
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,65 @@
+﻿@model TechZone.Web.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+<div class="container">
+    <div class="sub-cate" style="margin-top: -2%">
+        <div class="">
+            @*top-nav rsidebar span_1_of_left*@
+            <ul class="menu">
+                <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            </ul>
+        </div>
+    </div>
+    <div class="shoes-grid">
+        <section class="hero2 hero-normal2">
+            <div>
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                            <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                            <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                        </form>
+                    </div>
+                    <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+    
+    <div class="container" style="margin-top: 2%">
+        
+        <div class="account_grid">
+            <div class="login-right">
+                <h3 style="text-align: center; margin-top: 0px; margin-bottom: 0px">Đăng Nhập</h3>
+                <div class="dangnhap">
+                    @using (Html.BeginForm("Login", "Account", new { returnUrl = @ViewBag.ReturnUrl }, FormMethod.Post, new { action = "/Account/Login/" }))
+                    {
+                        @Html.ValidationSummary(false, "", new { @class = "error" })
+                        <div>
+                            <span>Tài khoản<label>*</label></span>
+                            @Html.TextBoxFor(model => model.UserName)
+                        </div>
+                        <div>
+                            <span>Password<label>*</label></span>
+                            @Html.PasswordFor(model => model.Password)
+                        </div>
+                        <div>
+                            @Html.CheckBoxFor(model => model.RememberMe)
+                            Nhớ mật khẩu?
+                        </div>           
+                        <input type="submit" value="Login" style="border-radius:10px; width: 150px; margin-left: 30%">
+                    }
+                </div>
+                <div style="text-align: center; margin-bottom: 20px">
+                    Chưa có tài khoản? &nbsp; &nbsp;
+                    <a href="/dang-ky.html/" style="color: red">Đăng ký</a>
+                </div>
+            </div>
+               
+            <div class="clearfix"> </div>
+        </div>
+
+   </div>

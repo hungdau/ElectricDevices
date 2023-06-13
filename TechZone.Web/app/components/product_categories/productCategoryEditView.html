@@ -1,0 +1,94 @@
+﻿  <!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Cập nhật danh mục: {{productCategory.Name}}
+
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#/admin"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+        <li><a href="javascript:void(0);">Sản phẩm</a></li>
+        <li><a ui-sref="product_categories">Danh mục</a></li>
+        <li class="active">Cập nhật</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <!-- Horizontal Form -->
+    <div class="box box-info">
+        <!--<div class="box-header with-border">
+            <h3 class="box-title">{{productCategory.Name}}</h3>
+        </div>--><!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" novalidate name="frmUpdateProductCategory" role="form" ng-submit="UpdateProductCategory()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Tên danh mục</label>
+                        <input type="text" class="form-control" ng-change="GetSeoTitle()" required name="name" ng-model="productCategory.Name">
+                        <span ng-show="frmAddProductCategory.name.$invalid" class="has-error">Phải nhập tên danh mục</span>
+                        <span ng-show="frmAddProductCategory.name.$error.maxlength" class="has-error">Tên danh mục chỉ được 256 ký tự</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Tiêu đề SEO</label>
+                        <input type="text" class="form-control" name="alias" required ng-model="productCategory.Alias">
+                        <span ng-show="frmAddProductCategory.alias.$invalid" class="has-error">Phải nhập tiêu đề SEO</span>
+                        <span ng-show="frmAddProductCategory.alias.$error.maxlength" class="has-error">Tiêu đề SEO chỉ được 256 ký tự</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Mô tả</label>
+                        <input type="text" class="form-control" ng-maxlength="500" name="description" ng-model="productCategory.Description">
+                        <span ng-show="frmAddProductCategory.description.$error.maxlength" class="has-error">Mô tả chỉ được 500 ký tự</span>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Thứ tự xuất hiện</label>
+                        <input type="number" class="form-control" name="displayOrder" required ng-model="productCategory.DisplayOrder">
+                        <span ng-show="frmAddProductCategory.displayOrder.$invalid" class="has-error">Phải nhập thứ tự</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Meta Keyword</label>
+                        <input type="text" class="form-control" name="metaKeyword" ng-model="productCategory.MetaKeyword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <label>Mô tả Meta Keyword</label>
+                        <textarea class="form-control" name="metaKeyword" ng-model="productCategory.MetaDescription" style="height: 200px"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="status" ng-model="productCategory.Status" ng-checked="productCategory.Status"> Kích hoạt
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="homeFlag" ng-model="productCategory.HomeFlag" ng-checked="productCategory.HomeFlag"> Hiện lên trang chủ
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.box-body -->
+            <div class="box-footer text-center">
+                <button ui-sref="product_categories" class="btn btn-default">Hủy</button>
+                <button type="submit" class="btn btn-success" ng-disabled="frmUpdateProductCategory.$invalid">Lưu</button>
+            </div><!-- /.box-footer -->
+        </form>
+    </div><!-- /.box -->
+</section><!-- /.content -->

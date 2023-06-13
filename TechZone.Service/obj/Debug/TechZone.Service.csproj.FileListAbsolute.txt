@@ -1,0 +1,138 @@
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Service.dll.config
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Service.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Service.pdb
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Common.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Data.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Model.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\EntityFramework.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Common.pdb
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Data.pdb
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Data.dll.config
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Model.pdb
+D:\Đồ án\Git\TechZone.Service\bin\Debug\TechZone.Model.dll.config
+D:\Đồ án\Git\TechZone.Service\bin\Debug\EntityFramework.xml
+D:\Đồ án\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.AssemblyReference.cache
+D:\Đồ án\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.CoreCompileInputs.cache
+D:\Đồ án\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.CopyComplete
+D:\Đồ án\Git\TechZone.Service\obj\Debug\TechZone.Service.dll
+D:\Đồ án\Git\TechZone.Service\obj\Debug\TechZone.Service.pdb
+D:\Đồ án\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Đồ án\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Đồ án\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Service.dll.config
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Service.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Service.pdb
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Common.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Data.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Model.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\EntityFramework.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Common.pdb
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Data.pdb
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Data.dll.config
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Model.pdb
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\TechZone.Model.dll.config
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\EntityFramework.xml
+C:\DoAn\DoAn\Git\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DoAn\DoAn\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.AssemblyReference.cache
+C:\DoAn\DoAn\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.CoreCompileInputs.cache
+C:\DoAn\DoAn\Git\TechZone.Service\obj\Debug\TechZone.Service.csproj.CopyComplete
+C:\DoAn\DoAn\Git\TechZone.Service\obj\Debug\TechZone.Service.dll
+C:\DoAn\DoAn\Git\TechZone.Service\obj\Debug\TechZone.Service.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Service.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Service.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Service.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Web.Http.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Common.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Data.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Model.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Data.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Data.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Model.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\TechZone.Model.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Web.Http.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\obj\Debug\TechZone.Service.csproj.AssemblyReference.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\obj\Debug\TechZone.Service.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\obj\Debug\TechZone.Service.csproj.CopyComplete
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\obj\Debug\TechZone.Service.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\obj\Debug\TechZone.Service.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EPPlus.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\HtmlRenderer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\HtmlRenderer.PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\EPPlus.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\HtmlRenderer.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\HtmlRenderer.PdfSharp.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\PdfSharp.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.Service\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Service.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Service.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Service.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EPPlus.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\HtmlRenderer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\HtmlRenderer.PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\PdfSharp.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Web.Http.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Common.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Data.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Model.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Data.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Data.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Model.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\TechZone.Model.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\EPPlus.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\HtmlRenderer.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\HtmlRenderer.PdfSharp.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Microsoft.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\PdfSharp.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Web.Http.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\obj\Debug\TechZone.Service.csproj.AssemblyReference.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\obj\Debug\TechZone.Service.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\obj\Debug\TechZone.Service.csproj.CopyComplete
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\obj\Debug\TechZone.Service.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DoAn - Copy (4)\TechZone.Service\obj\Debug\TechZone.Service.pdb

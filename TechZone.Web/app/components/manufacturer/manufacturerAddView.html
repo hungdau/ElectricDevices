@@ -1,0 +1,106 @@
+﻿  <!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        {{productCategory}} - Thêm mới hãng sản xuất
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#/admin"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+        <li><a href="javascript:void(0);">Sản phẩm</a></li>
+        <li><a ui-sref="product_categories">Danh mục</a></li>
+        <li><a ui-sref="manufacturer({id:productCategoryId})">{{productCategory}}</a></li>
+        <li class="active">Thêm mới</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <!-- Horizontal Form -->
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Thêm mới</h3>
+        </div><!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" novalidate name="frmAddManufacturer" role="form" ng-submit="AddManufacturer()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Tên danh mục</label>
+                        <input type="text" class="form-control" ng-maxlength="256" required ng-change="GetSeoTitle()" name="name" ng-model="manufacturer.Name">
+                        <span ng-show="frmAddManufacturer.name.$invalid" class="has-error">Chưa nhập tên danh mục</span>
+                        <span ng-show="frmAddManufacturer.name.$error.maxlength" class="has-error">Tên danh mục chỉ được 256 ký tự</span>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Tiêu đề SEO</label>
+                        <input type="text" class="form-control" name="alias" required ng-model="manufacturer.Alias">
+                        <span ng-show="frmAddManufacturer.alias.$invalid" class="has-error">Chưa nhập tiêu đề SEO</span>
+                        <span ng-show="frmAddManufacturer.alias.$error.maxlength" class="has-error">Tiêu đề SEO chỉ được 256 ký tự</span>
+
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Mô tả </label>
+                        <textarea class="form-control" name="description" ng-maxlength="500" ng-model="manufacturer.Description"></textarea>
+                        <span ng-show="frmAddManufacturer.description.$error.maxlength" class="has-error">Mô tả chỉ được 500 ký tự</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Danh mục</label>
+                        <select name="parentId" class="form-control" ng-model="manufacturer.ParentID" ng-options="option.ID as option.Name for option in parentCategories">
+                            <option value="">Chọn danh mục</option>
+                        </select>
+                        <input type="hidden" name="parentId" ng-model="manufacturer.ParentID" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Thứ tự</label>
+                        <input type="number" class="form-control" name="displayOrder" required ng-model="manufacturer.DisplayOrder">
+                        <span ng-show="frmAddManufacturer.displayOrder.$invalid" class="has-error">Chưa nhập thứ tự</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Meta Keyword</label>
+                        <input type="text" class="form-control" name="metaKeyword" ng-model="manufacturer.MetaKeyword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <label>Mô tả Meta Keyword</label>
+                        <textarea class="form-control" name="metaKeyword" ng-model="manufacturer.MetaDescription"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="status" ng-model="manufacturer.Status" ng-checked="manufacturer.Status"> Kích hoạt
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="homeFlag" ng-model="manufacturer.HomeFlag" ng-checked="manufacturer.HomeFlag"> Hiển thị trang chủ
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.box-body -->
+            <div class="box-footer text-center">
+                <button ui-sref="manufacturer({id:productCategoryId})" class="btn btn-default">Hủy</button>
+                <button type="submit" ng-disabled="frmAddManufacturer.$invalid" class="btn btn-success">Tạo</button>
+            </div><!-- /.box-footer -->
+        </form>
+    </div><!-- /.box -->
+</section><!-- /.content -->

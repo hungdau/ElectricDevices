@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@fortawesome/fontawesome-common-types": "^6.3.0"
+  },
+  "dependencies": {
+    "ckeditor": "^4.12.1"
+  }
+}

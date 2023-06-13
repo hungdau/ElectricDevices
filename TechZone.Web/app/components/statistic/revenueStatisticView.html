@@ -1,0 +1,119 @@
+﻿  <!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Thống kê doanh số
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#/admin"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+        <li class="active">Thống kê doanh số</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <!-- Left col -->
+        <!-- right col -->
+        <section class="col-lg-5">
+            <!-- Date range options -->
+            <div class="box box-solid">
+                <div class="box-body">  
+                    <h3 class="box-title">
+                        <i class="fa fa-calendar"></i>
+                        Tùy Chọn
+                        <button class="btn btn-primary" ng-click="getMonthlyStats()" style="background: #40a2f8; float: right">Thống kê theo tháng</button>
+                        <button class="btn btn-primary" ng-click="getDailyStats()" style="background: #40a2f8; float: right">Thống kê theo ngày</button>
+                    </h3>
+                    
+                    <div class="row" ng-show="inputDate">
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label>Bắt đầu:</label>
+                                <input type="date" class="form-control" ng-model="date.startDate">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label>Đến ngày:</label>
+                                <input type="date" class="form-control" ng-model="date.endDate">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" ng-show="inputMonth">
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label>Bắt đầu:</label>
+                                <input type="month" class="form-control" ng-model="month.startMonth">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label>Đến tháng:</label>
+                                <input type="month" class="form-control" ng-model="month.endMonth">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12" style="margin-left: 40%">
+                            <button class="btn btn-primary" ng-click="revenue()" style="background: #40a2f8">Thống kê</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map box -->
+            <div class="box box-solid">
+                <div class="box-header">
+                    <!-- tools box -->
+                    <!--<i class="fa fa-map-marker"></i>-->
+                    <h3 class="box-title">
+                        Dữ liệu thống kê
+                    </h3>
+                </div>
+                <div class="box-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <td width="35%">{{name}}</td>
+                                <td>Doanh số</td>
+                                <td>Lợi nhuận</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in tabledata">
+                                <td width="35%">
+                                    {{inputDate?(item.Date | date):(item.Month)}}
+                                </td>
+                                <td>
+                                    {{item.Revenues | number}}
+                                </td>
+                                <td>
+                                    {{item.Benefit | number}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- /.box-body-->
+                <div class="box-footer no-border">
+                </div>
+            </div>
+        </section><!-- right col -->
+        <section class="col-lg-7">      
+            <!-- Custom tabs (Charts with tabs)-->
+            <div class="nav-tabs-custom" style="padding-left: 10px;">
+                <!-- Tabs within a box -->
+                <ul class="nav nav-tabs pull-right">
+                    <li class="active"><a href="javascript:void(0);" data-toggle="tab">Doanh thu</a></li>
+                </ul>
+                <br />
+                <br />
+                <br />
+                <div class="tab-content no-padding">
+                    <!-- Morris chart - Sales -->
+                    <canvas id="bar" class="chart chart-line"
+                            chart-data="chartdata" chart-labels="labels" chart-series="series"></canvas>
+                </div>
+            </div><!-- /.nav-tabs-custom -->
+        </section><!-- /.Left col -->
+    </div><!-- /.row (main row) -->
+
+</section><!-- /.content -->

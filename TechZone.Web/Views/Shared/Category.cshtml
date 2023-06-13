@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TechZone.Web.Models.ProductCategoryViewModel>
+
+<div class="sub-cate" style="margin-top: -18px">
+    <div class="">
+        @*top-nav rsidebar span_1_of_left*@
+        <ul class="menu">
+            <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            @foreach (var category in Model.Where(x => x.ParentID == null))
+            {
+                var url = "/" + category.Alias + ".pc-" + category.ID + ".html/";
+
+                var childCategories = Model.Where(x => x.ParentID == category.ID);
+                if (childCategories.Count() > 0)
+                {
+                    <li>
+                        <a href="javascript:void(0);">@category.Name <span style="float: right; margin-right:2%; font-size:small">&or;</span>  </a>
+                        @if (childCategories.Count() > 0)
+                        {
+                            <ul class="cute">
+                                @foreach (var childCategory in childCategories)
+                                {
+                                    var childUrl = "/" + childCategory.Alias + ".pc-" + childCategory.ID + ".html/";
+                                    <li class="subitem3"><a href="@childUrl" style="text-align:center;">&nbsp;@childCategory.Name</a></li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            }
+            @foreach (var category in Model.Where(x => x.ParentID == null))
+            {
+                var url = "/" + category.Alias + ".pc-" + category.ID + ".html/";
+                var childCategories = Model.Where(x => x.ParentID == category.ID);
+                if (childCategories.Count() == 0)
+                {
+                    <li class="singleMenu"><a href="@url">@category.Name</a></li>
+                }
+            }
+        </ul>
+    </div>
+</div>

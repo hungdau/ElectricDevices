@@ -1,0 +1,117 @@
+﻿    @using TechZone.Web.Infrastructure.Core
+    @model IEnumerable<TechZone.Web.Infrastructure.Core.CartOrder>
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/Layouts.cshtml";
+    }
+
+    @section footerJS{
+        <script>
+            $('.btnContinue').off('click').on('click', function (e) {
+                e.preventDefault();
+                window.location.href = "/";
+            });
+        </script>
+    }
+    <div class="container">
+        <div class="sub-cate" style="margin-top: -2%">
+            <div class="">
+                @*top-nav rsidebar span_1_of_left*@
+                <ul class="menu">
+                    <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+                </ul>
+            </div>
+        </div>
+        <div class="shoes-grid">
+            <section class="hero2 hero-normal2">
+                <div>
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                                <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                                <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                            </form>
+                        </div>
+                        <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <div class="single_top">
+
+            <h2 style="font-weight: 600; margin: 20px;">Đơn hàng đã đặt</h2>
+            <div class="single_grid">
+                <div id="cartContent">
+                    <table class="table" style="border: 1px solid gray;" cellpadding="0"> 
+                        <thead>
+                            <tr>
+                                <th style="width: 25px; border: 1px solid #ddd;">STT</th>
+                                <th style="border-top: 1px solid #ddd;">Tên sản phẩm</th>
+                                <th style="text-align: center; border-top: 1px solid #ddd; border-left: 1px solid #ddd;">Giá</th>
+                                <th style="width: 80px; border-top: 1px solid #ddd; border-left: 1px solid #ddd;">Số lượng</th>
+                                <th style="width: 93px; border-top: 1px solid #ddd; border-left: 1px solid #ddd;">Thành tiền</th>
+                                <th style="width: 200px; border: 1px solid #ddd;">Ngày đặt</th>
+                                <th style="width: 120px; border-right: 1px solid #ddd; border-top: 1px solid #ddd; border-left: 1px solid #ddd; text-align: center;">Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartBody">
+                            @{
+                                var index = 1;
+                            }
+                            @foreach (var item in Model)
+                            {
+                                var tempIndex = 1;
+                                var dem = 0;
+                                decimal total = 0;
+                                foreach (var item1 in item.Cart)
+                                {
+                                    dem++;
+                                    total += item1.Quantity * item1.Product.Price;
+                                }
+                                var tmp = true;
+                                foreach (var item1 in item.Cart)
+                                {
+                                    if (tmp)
+                                    {
+                                        var status = item.Status ? "Đang giao" : "Chưa giao";
+                                        tmp = false;
+                                        <tr>
+                                            <td style="text-align: center; vertical-align: middle; border: 1px solid #ddd;" rowspan="@dem">@(index)</td>
+                                            <td style="vertical-align: middle;">@item1.Product.Name</td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd;">@(item1.Product.Price.ToString("N0", new System.Globalization.CultureInfo("en-US")))</td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd; text-align: center;">@item1.Quantity</td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd;" rowspan="@dem">@(total.ToString("N0", new System.Globalization.CultureInfo("en-US")))</td>
+                                            <td style="vertical-align: middle; border-right: 1px solid #ddd;" rowspan="@dem">@(item.OrderDate)</td>
+                                            <td style="vertical-align: middle; border-right: 1px solid #ddd; border-left: 1px solid #ddd; text-align: center;" rowspan="@dem"><span class="@(item.Status ? "statustrue" : "statusfalse")">@(status)</span></td>
+                                        </tr>
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td style="vertical-align: middle;">@item1.Product.Name</td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd;"><img src="@item1.Product.Image" height="50" /></td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd;">@(item1.Product.Price.ToString("N0", new System.Globalization.CultureInfo("en-US")))</td>
+                                            <td style="vertical-align: middle; border-left: 1px solid #ddd; text-align: center;">@item1.Quantity</td>
+                                        </tr>
+                                    }
+
+                                    tempIndex++;
+                                }
+                                <tr>
+                                    <td colspan="8" style="background-color: #e8e8e8; height: 2px; padding:2px;"></td>
+                                </tr>
+                                index += tempIndex - 1;
+                            }
+                        </tbody>
+
+
+                    </table>
+                    <a href="/" style="color: red">< &nbsp; Trang chủ </a>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+   

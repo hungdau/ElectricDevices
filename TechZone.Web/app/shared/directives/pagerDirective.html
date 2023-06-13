@@ -1,0 +1,26 @@
+﻿<div>
+    <div ng-hide="(!pagesCount || pagesCount < 2)" style="display:inline">
+        <ul class="pagination pagination-sm">
+            <li>
+                <a style="cursor: pointer;" ng-if="page != 0" ng-click="search(0)"><<</a>
+                <span style="cursor: default;" ng-if="page == 0"><<</span>
+            </li>
+            <li>
+                <a style="cursor: pointer;" ng-if="page != 0" ng-click="search(page-1)"><</a>
+                <span style="cursor: default;" ng-if="page == 0"><</span>
+            </li>
+            <li ng-repeat="n in range()" ng-class="{active: n == page}">
+                <a style="cursor: pointer;" ng-click="search(n)" ng-if="n != page">{{n+1}}</a>
+                <span style="background: #007bff; color: white;" ng-if="n == page">{{n+1}}</span>
+            </li>
+            <li>
+                <a style="cursor: pointer;" ng-if="page != pagesCount - 1" ng-click="search(pagePlus(1))">></a>
+                <span style="cursor: default;" ng-if="page == pagesCount - 1">></span>
+            </li>
+            <li>
+                <a style="cursor: pointer;" ng-if="page != pagesCount - 1" ng-click="search(pagesCount - 1)">>></a>
+                <span style="cursor: default;" ng-if="page == pagesCount - 1">>></span>
+            </li>
+        </ul>
+    </div>
+</div>

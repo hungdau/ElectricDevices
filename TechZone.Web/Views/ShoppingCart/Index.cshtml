@@ -1,0 +1,151 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+@section footerJS{
+    <script src="~/Assets/client/js/controllers/shoppingCart.js"></script>
+}
+
+<div class="container">
+    <div class="sub-cate" style="margin-top: -2%; margin-left: -17px">
+        <div class="">
+            @*top-nav rsidebar span_1_of_left*@
+            <ul class="menu">
+                <h3 class="hero__categories__all"><span>&equiv; &nbsp; Danh mục sản phẩm</span></h3>
+            </ul>
+        </div>
+    </div>
+    <div class="shoes-grid">
+        <section class="hero2 hero-normal2">
+            <div>
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form method="get" action="/tim-kiem.html/" style="border-top: 1px black solid; border-left: 1px black solid; border-bottom: 1px black solid; ">
+                            <input type="text" id="txtKeyword" name="keyword" placeholder="Từ khóa">
+                            <button type="submit" class="site-btn" value="Tìm kiếm" id="btnSearch" style="background:#40a2f8">SEARCH</button>
+                        </form>
+                    </div>
+                    <div style="float: right"><a href="/gio-hang.html/"><img style="width: 60px; height:60px" src="~/Assets/client/images/cart.png" />GIỎ HÀNG</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<section class="breadcrumb-section set-bg2" style="background-image: url(/Assets//client/images/anhtieude.jpg); width: 100%" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h3>Giỏ Hàng</h3>
+                    <div class="breadcrumb__option">
+                        <a href="/">Home &nbsp; &nbsp;</a> 
+                        <span> - &nbsp; &nbsp;</span>
+                        <a href="/gio-hang.html/">Giỏ hàng</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="single_top" style="width: 80%">
+        <div class="single_grid">
+            <div id="cartContent">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td style="width: 25px;">STT</td>
+                            <td>Tên sản phẩm</td>
+                            <td>Hình ảnh</td>
+                            <td>Giá</td>
+                            <td style="width:172px">Số lượng</td>
+                            <td>Thành tiền</td>
+                            <td style="width: 36px;text-align:center"></td>
+                        </tr>
+                    </thead>
+                    <tbody id="cartBody"></tbody>
+                </table>
+                <div class="pull-right" style="padding-bottom: 20px">
+                    <b>Tổng tiền: <span id="lblTotalOrder"></span></b>
+                </div>
+                <div class="clearfix"></div>
+                <button class="btn btn-success btnContinue" style="background-color: #40a2f8">Tiếp tục mua hàng</button>
+                @*<button class="btn btn-danger" id="btnDeleteAll">Xóa giỏ hàng</button>*@
+                <button class="btn btn" id="btnCheckout" style="border: 1px solid gray; float: right">Thanh toán</button>
+            </div>    
+            <div class="row">
+                <div id="divCheckout" style="display:none;">
+                    <div class="reservation_top">
+                        <h3 style="margin-left: 20px; margin-bottom: 20p; font-weight: 600; text-align: center; padding-top: 30px">Đặt hàng</h3>
+                        <hr style="border: 1px solid gray"/>
+                        <div class="col-lg-8 col-md-4">
+                            <div class="contact_right">
+                                <div class="contact-form">
+                                    <form method="post" id="frmPayment">
+                                        @if (Request.IsAuthenticated)
+                                        {
+                                            <label>
+                                                <input type="checkbox" id="chkUserLoginInfo" />
+                                                Dùng thông tin tài khoản
+                                            </label>
+                                        }
+                                        <input type="text" class="textbox" id="txtName" name="name" placeholder="Họ tên">
+                                        <input type="text" class="textbox" id="txtAddress" name="address" placeholder="Địa chỉ">
+                                        <input type="text" class="textbox" id="txtEmail" name="email" placeholder="Email">
+                                        <input type="text" class="textbox" id="txtPhone" name="phone" placeholder="Điện thoại">
+                                        <textarea value="" id="txtMessage" style="height: 220px">Lời nhắn</textarea>
+                                        <input type="button" id="btnCreateOrder" value="Đặt hàng" style="float: right; width: 150px; height: 40px; background-color: #40a2f8; border: none; color: white; border-radius: 5px">
+                                        <div class="clearfix"> </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-2">
+                            <div class="checkout__order">
+                                <h4 style="font-size: 1.4em; border-bottom: 1px solid gray ">Hóa đơn</h4>
+                                <div class="checkout__order__products">Products <span>Total</span></div>
+                                <ul>
+                                    <div id="cartBody2">
+                                </ul>
+                            </div>                         
+                                <div class="thanhtoan">Tổng tiền <b><span id="lblTotalOrder2" style="float:right"></span></div>        
+                                @*<p>
+                                    Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.
+                                </p>
+                                <div class="checkout__input__checkbox">
+                                    <label for="payment">
+                                        Check Payment
+                                        <input type="checkbox" id="payment">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>*@
+                        </div>
+                               
+                  </div>
+              </div>
+
+
+          </div>
+                </div>
+            </div>
+
+        </div>
+
+<script id="tplCart" type="x-tmpl-mustache">
+  <tr>
+    <td style="text-align:center">{{Id}}</td>
+    <td>{{ProductName}}</td>
+    <td><img src="{{Image}}" height="50" /></td>
+    <td>{{PriceF}}</td>
+    <td><input type="number" data-id="{{ProductId}}" data-price="{{Price}}" value="{{Quantity}}" class="input txtQuantity" /></td>
+    <td id="amount_{{ProductId}}">{{Amount}}</td>
+    <td><button class="btn btn-danger btnDeleteItem" data-id="{{ProductId}}">x</button></td>
+  </tr>
+</script>
+<script id="tplCart2" type="x-tmpl-mustache">
+    <li>{{ProductName}}<span id="amount_{{ProductId}}">{{Amount}}</span></li>
+</script>

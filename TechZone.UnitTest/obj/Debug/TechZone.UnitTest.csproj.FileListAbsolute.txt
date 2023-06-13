@@ -1,0 +1,317 @@
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Common.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\EntityFramework.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Optimization.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Mvc.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Razor.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Common.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.dll.config
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.dll.config
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.dll.config
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.dll.config
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\EntityFramework.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Optimization.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Mvc.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.Razor.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Đồ án\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.AssemblyReference.cache
+D:\Đồ án\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CoreCompileInputs.cache
+D:\Đồ án\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CopyComplete
+D:\Đồ án\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.dll
+D:\Đồ án\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll.config
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Castle.Core.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Moq.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Castle.Core.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Moq.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Owin.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\AutoMapper.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\WebGrease.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Memory.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Buffers.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\AutoMapper.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.pdb
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Memory.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Buffers.xml
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\BotDetect.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Data.SQLite.dll
+D:\Đồ án\Git\TechZone.UnitTest\bin\Debug\System.Data.SQLite.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll.config
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Castle.Core.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\EntityFramework.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Moq.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Common.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Optimization.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Mvc.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\AutoMapper.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Owin.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\WebGrease.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Razor.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\BotDetect.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Data.SQLite.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Memory.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Buffers.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Common.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Data.dll.config
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Model.dll.config
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Service.dll.config
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\TechZone.Web.dll.config
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Castle.Core.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\EntityFramework.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Moq.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Optimization.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Mvc.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\AutoMapper.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.Razor.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.pdb
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Data.SQLite.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Memory.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\bin\Debug\System.Buffers.xml
+C:\DoAn\DoAn\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.AssemblyReference.cache
+C:\DoAn\DoAn\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CoreCompileInputs.cache
+C:\DoAn\DoAn\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CopyComplete
+C:\DoAn\DoAn\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.dll
+C:\DoAn\DoAn\Git\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.UnitTest.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Castle.Core.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Moq.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Common.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Data.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Model.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Service.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Web.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Optimization.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Mvc.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\AutoMapper.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\WebGrease.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Razor.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\BotDetect.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Memory.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Buffers.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Common.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Data.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Data.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Model.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Model.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Service.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Service.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Web.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\TechZone.Web.dll.config
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Castle.Core.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Moq.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Optimization.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Mvc.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\AutoMapper.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.Razor.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Memory.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\bin\Debug\System.Buffers.xml
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.AssemblyReference.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.csproj.CopyComplete
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.dll
+C:\Users\Lenovo Legion 5 Pro\Desktop\DauNgocHung_2019606909\TechZone.UnitTest\obj\Debug\TechZone.UnitTest.pdb
